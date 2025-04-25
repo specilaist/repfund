@@ -26,6 +26,9 @@ export default function Navbar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             REP Fund
           </Typography>
+          <a>
+            
+          </a>
         </Toolbar>
       </AppBar>
     </Box>

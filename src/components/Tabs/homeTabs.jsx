@@ -51,7 +51,7 @@ export default function HomeTabs() {
   };
 
   return (
-    <Box sx={{ bgcolor: 'background.paper', width: 500 }}>
+    <Box sx={{ bgcolor: 'background.paper' }}>
       <AppBar position="static">
         <Tabs
           value={value}
@@ -60,13 +60,14 @@ export default function HomeTabs() {
           textColor="inherit"
           variant="fullWidth"
           aria-label="full width tabs example"
+          sx={{backgroundColor: '#0d4f13'}}
         >
           <Tab label="Item One" {...a11yProps(0)} />
           <Tab label="Item Two" {...a11yProps(1)} />
           <Tab label="Item Three" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
-      <TabPanel value={value} index={0} dir={theme.direction}>
+      <TabPanel sx={{backgroundColor: '#0d4f13'}} value={value} index={0} dir={theme.direction}>
         Item One
       </TabPanel>
       <TabPanel value={value} index={1} dir={theme.direction}>

@@ -11,6 +11,8 @@ export default function Home() {
       <Banner/>
       <HomeTabs />
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+      © REP Fund 2023 Oakland, CA -  info@repfund.org - @rep_fund
+
       </footer>
     </div>
   );
