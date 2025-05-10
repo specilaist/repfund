@@ -9,8 +9,16 @@ export default function Home() {
     <div className="items-center justify-items-center min-h-screen gap-16 font-[family-name:var(--font-geist-sans)]">
       <NavBar/>
       <Banner/>
+      <div>
+        <h1>
+          What We Do:
+        </h1>
+        <p>
+        The Rep Fund is a a non profit centered around Real Effective  Representation in politics. What that means is we finds problems affecting a majority of constituents and devise REAL solutions for those problems. Whether it be Housing, Fair Pay, Civil Rights and even International Relations, the REP Fund is here to lobby and fight for the will of the majority.
+        </p>
+      </div>
       <HomeTabs />
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center bg-dGreen">
       © REP Fund 2023 Oakland, CA -  info@repfund.org - @rep_fund
 
       </footer>

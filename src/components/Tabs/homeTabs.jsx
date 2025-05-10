@@ -8,6 +8,8 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import ActionCards from '../Cards/actionCardBox';
+import InitiativeCard from '../Cards/initiativeCard';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -62,19 +64,20 @@ export default function HomeTabs() {
           aria-label="full width tabs example"
           sx={{backgroundColor: '#0d4f13'}}
         >
-          <Tab label="Item One" {...a11yProps(0)} />
-          <Tab label="Item Two" {...a11yProps(1)} />
-          <Tab label="Item Three" {...a11yProps(2)} />
+          <Tab label="Action Items" {...a11yProps(0)} />
+          <Tab label="Get Involved" {...a11yProps(1)} />
+          <Tab label="Sponsorship" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
-      <TabPanel sx={{backgroundColor: '#0d4f13'}} value={value} index={0} dir={theme.direction}>
-        Item One
+      <TabPanel class="bg-greenish" value={value} index={0} dir={theme.direction}>
+        <div></div>
+        <InitiativeCard/>
       </TabPanel>
       <TabPanel value={value} index={1} dir={theme.direction}>
-        Item Two
+        Get Involved
       </TabPanel>
       <TabPanel value={value} index={2} dir={theme.direction}>
-        Item Three
+        Sponsorship
       </TabPanel>
     </Box>
   );

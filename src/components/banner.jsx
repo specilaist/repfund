@@ -15,7 +15,7 @@ export default function Banner() {
         backgroundImage: 'url(/images/repFundLogo.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        height: '100vh', // Full height
+        height: '70vh', // Full height
         width: '100%',   // Full width
         display: 'flex',
         alignItems: 'center',
