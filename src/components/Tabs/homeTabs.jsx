@@ -10,6 +10,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import ActionCards from '../Cards/actionCardBox';
 import InitiativeCard from '../Cards/initiativeCard';
+import EarlyYears from '../Cards/actionCardBox';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -53,7 +54,7 @@ export default function HomeTabs() {
   };
 
   return (
-    <Box sx={{ bgcolor: 'background.paper' }}>
+    <Box sx={{ flexGrow: 1, bgcolor: 'background.paper' }}>
       <AppBar position="static">
         <Tabs
           value={value}

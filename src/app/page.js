@@ -9,12 +9,13 @@ export default function Home() {
     <div className="items-center justify-items-center min-h-screen gap-16 font-[family-name:var(--font-geist-sans)]">
       <NavBar/>
       <Banner/>
-      <div>
-        <h1>
+      <div class="text-amber-950 text-center border-4 border-white px-18 py-10">
+        <h1 class="text-4xl text-decoration: underline">
           What We Do:
         </h1>
-        <p>
-        The Rep Fund is a a non profit centered around Real Effective  Representation in politics. What that means is we finds problems affecting a majority of constituents and devise REAL solutions for those problems. Whether it be Housing, Fair Pay, Civil Rights and even International Relations, the REP Fund is here to lobby and fight for the will of the majority.
+        <br></br>
+        <p class="text-2xl">
+        The Rep Fund is a a non profit centered around Real Effective Politics to REPresent political concerns of the many, the voiceless, and the uniformed. What that means is we finds problems affecting a majority of constituents and devise REAL solutions for those problems. Whether it be Housing, Fair Pay, Civil Rights and even International Relations, the REP Fund is here to lobby and fight for the will of the majority.
         </p>
       </div>
       <HomeTabs />

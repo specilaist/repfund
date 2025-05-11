@@ -81,7 +81,7 @@ export default function EarlyYears() {
               <Grid sx={{ backgroundColor: "#0A3161" }} item xs={12} md={4}>
                 <Image
                   height="50vw"
-                  src={beyonce}
+                  // src={beyonce}
                   alt="Eagle Scout Picture"
                 ></Image>
               </Grid>
@@ -150,7 +150,7 @@ export default function EarlyYears() {
               <Grid sx={{ backgroundColor: "#0A3161" }} item xs={12} md={4}>
                 <Image
                   height="50vw"
-                  src={worldCup}
+                  // src={worldCup}
                   alt="Eagle Scout Picture"
                 ></Image>
               </Grid>
@@ -213,7 +213,7 @@ export default function EarlyYears() {
               <Grid sx={{ backgroundColor: "#0A3161" }} item xs={12} md={4}>
                 <Image
                   height="50vw"
-                  src={beyonce}
+                  // src={beyonce}
                   alt="Eagle Scout Picture"
                 ></Image>
               </Grid>
